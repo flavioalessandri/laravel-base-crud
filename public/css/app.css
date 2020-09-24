@@ -1,0 +1,27 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+}
+
+body .wrapper {
+  padding: 30px 50px;
+}
+
+body .wrapper .container {
+  width: 100%;
+  min-height: 200px;
+  background-color: lightgrey;
+}
+
+body .wrapper header,
+body .wrapper footer {
+  width: 100%;
+  min-height: 200px;
+}
+
