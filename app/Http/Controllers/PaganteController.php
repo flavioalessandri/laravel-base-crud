@@ -11,7 +11,10 @@ use Illuminate\Http\Request;
 class PaganteController extends Controller
 {
     public function index(){
-      $txt = "ciao";
-      return view('pagante', compact('txt'));
+
+      $paganti = Pagante::all();
+      // dd($paganti);
+      $txt = "Lista Paganti";
+      return view('pagante', compact('paganti', 'txt'));
     }
 }
