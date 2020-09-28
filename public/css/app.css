@@ -118,6 +118,10 @@ section li {
   transition: all 0.2s;
 }
 
+section#home {
+  height: calc(100vh - 200px);
+}
+
 footer {
   padding: 20px 0;
   text-align: center;
