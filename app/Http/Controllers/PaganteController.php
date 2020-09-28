@@ -15,6 +15,12 @@ class PaganteController extends Controller
       $paganti = Pagante::all();
       // dd($paganti);
       $txt = "Lista Paganti";
-      return view('pagante', compact('paganti', 'txt'));
+      return view('paganti.pagante', compact('paganti', 'txt'));
+    }
+
+    public function show($id){
+      $pagante=Pagante::findOrFail($id);
+
+      return view('paganti.pagante-show', compact('pagante'));
     }
 }

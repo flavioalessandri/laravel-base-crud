@@ -11,29 +11,104 @@ body {
   background-color: #EDF2F4;
 }
 
-body .wrapper {
-  padding: 30px 50px;
+ul {
+  list-style-type: none;
 }
 
-body .wrapper .container {
+a {
+  text-decoration: none;
+  color: #2B2D42;
+}
+
+a:hover {
+  color: #e63946;
+}
+
+.wrapper {
+  padding: 30px auto;
+}
+
+.wrapper .container {
   width: 100%;
   min-height: 200px;
   background-color: #EDF2F4;
 }
 
-body .wrapper header,
-body .wrapper footer {
+header {
   text-align: center;
   width: 100%;
-  min-height: 50px;
+  background-color: #2B2D42;
 }
 
-body section h2 {
+header ul {
+  padding: 20px 0;
+  width: 100%;
+  min-height: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header ul li {
+  padding: 0 30px;
+}
+
+header a {
+  color: #EDF2F4;
+}
+
+section {
+  padding: 40px 0;
+  width: 100%;
+  height: 100%;
+}
+
+section table {
+  max-width: 400px;
+  margin: auto;
+  border: 1px solid #2B2D42;
+  padding: 30px;
+}
+
+section caption {
+  font-weight: 600;
+  padding-bottom: 15px;
+}
+
+section th {
+  color: #e63946;
+  text-align: left;
+}
+
+section tr:first-of-type {
+  line-height: 3;
+}
+
+section th,
+section td {
+  text-align: center;
+  padding: 5px 30px;
+}
+
+section tr:nth-of-type(even) {
+  background-color: #eddcd2;
+}
+
+section i {
+  text-align: center;
+  color: #5590B4;
+}
+
+section i:hover {
+  color: #e63946;
+}
+
+section h2 {
   text-align: center;
   padding: 20px 0;
 }
 
-body section li {
+section li {
   border-bottom: 1px solid #2B2D42;
   background-color: #f9dcc4;
   margin: 20px 0;
@@ -43,21 +118,26 @@ body section li {
   transition: all 0.2s;
 }
 
-body section li span {
-  color: #2B2D42;
-  display: block;
-  margin: auto;
-  transition: all 0.2s;
-  width: 80%;
-  height: 25px;
+footer {
+  padding: 20px 0;
+  text-align: center;
+  width: 100%;
+  min-height: 80px;
+  background-color: #2B2D42;
 }
 
-body section li:hover {
-  background-color: #fec89a;
+footer ul {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-body section li:hover span {
-  transform: scale(1.05);
-  color: #494C6F;
+footer ul li {
+  padding: 0 30px;
+}
+
+footer a {
+  color: #EDF2F4;
 }
 
