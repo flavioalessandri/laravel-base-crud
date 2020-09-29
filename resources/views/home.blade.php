@@ -4,7 +4,11 @@
 
   <section id="home">
 
-    <h2>HOME</h2>
+
+      <div class="jumbo"></div>
+
+
+
 
   </section>
 

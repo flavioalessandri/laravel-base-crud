@@ -4,10 +4,8 @@
 
 <section id="recensioni">
 
-
-<h3>Reviews</h3>
-
 <table>
+  <caption>Reviews</caption>
   <tr>
     <th>Titolo</th>
     <th>Testo</th>
