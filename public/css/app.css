@@ -71,10 +71,10 @@ section#home {
 
 section#home .jumbo {
   width: 100%;
-  height: 400px;
+  height: 460px;
   background-image: url("/img/hotel.png");
   background-size: cover;
-  background-position: top center;
+  background-position: 0 -54px;
 }
 
 section {
