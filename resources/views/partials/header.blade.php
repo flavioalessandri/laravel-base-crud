@@ -13,6 +13,10 @@
       <a href="{{ route('pagamenti.index') }}">PAGAMENTI</a>
   </li>
 
+  <li>
+      <a href="{{ route('posts.index') }}">RECENSIONI</a>
+  </li>
+
 
 </ul>
 
