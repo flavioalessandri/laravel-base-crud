@@ -1,8 +1,8 @@
 <header>
 
-<ul>
+<ul id="myLink">
   <li>
-      <a href="{{ route('home') }}">HOME</a>
+      <a class="active" href="{{ route('home') }}">HOME</a>
   </li>
 
   <li>
