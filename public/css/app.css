@@ -134,6 +134,29 @@ section li {
   transition: all 0.2s;
 }
 
+section#post {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 40px 0;
+  width: 100%;
+  height: 100%;
+  margin: auto;
+}
+
+section#post .post {
+  width: 350px;
+  border: 1px solid black;
+  line-height: 2;
+  padding: 20px;
+  margin: 10px;
+}
+
+section#post .post span {
+  padding-bottom: 15px;
+}
+
 footer {
   padding: 20px 0;
   text-align: center;
