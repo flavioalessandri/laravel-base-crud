@@ -20,8 +20,8 @@ class CreatePostsTable extends Migration
             $table->string('title',60);
             $table->text('text',300);
             $table->string('category',100);
-            $table->text('like',200);
-            $table->text('dislike',200);
+            $table->decimal('like',8,2);
+            $table->decimal('dislike',8,2);
         });
     }
 

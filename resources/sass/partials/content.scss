@@ -22,6 +22,7 @@ section{
     margin:auto;
     border:1px solid #2B2D42;
     padding:30px;
+    border-collapse: collapse;
   }
 
   caption{
@@ -84,17 +85,49 @@ section#post{
   margin: auto;
 
   .post{
+    background-color: #fff1e6;
     width:350px;
     border:1px solid black;
     line-height: 2;
-    // margin:auto;
     padding:20px ;
     margin:10px;
+    overflow: hidden;
+
+    &:nth-of-type(even){
+      background-color: #eddcd2;
+    }
+
+    .post-container{
+      width:100%;
+      height:100%;
+      transition: all .2s;
+
+      &:hover{
+        transform: scale(1.05);
+      }
+    }
+
+
+    .txt{
+      width: 100%;
+      display: -webkit-box;
+      -webkit-line-clamp: 4;
+      -webkit-box-orient: vertical;
+      text-overflow: ellipsis;
+      overflow: hidden;
+      height: 127px;
+    }
+
+    .categoria{
+      min-height: 80px;
+    }
+
 
 
     span{
       padding-bottom: 15px;
     }
+
   }
 
 }

@@ -4,9 +4,10 @@
 
   <section id="pagamenti">
 
-    <h2>PAGAMENTI</h2>
+
 
     <table>
+      <caption>Pagamenti</caption>
       <tr>
         <th>STATUS</th>
         <th>PREZZO</th>
